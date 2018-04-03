@@ -1,24 +1,24 @@
 body{
- background: #157;
+ background: #FA8072;
 }
 .flex-parent{
  display: flex;
- flex-direction: row;
+ flex-direction: column;
  justify-content: center;
 }
 .profile{
- width: 30%;
+ width: 100%;
  height: auto;
- background: #fff;
+ background: #4682B4;
  margin: 2%;
  padding: 1%;
- border: 2px solid #000;
+   border: 2px solid #000;
  border-radius: 20px;
 }
 .content{
  width: 70%;
  height: auto;
- background: #fff;
+ background: #4682B4;
  margin: 2%;
  padding: 1%;
  border: 2px solid #000;
@@ -26,10 +26,74 @@ body{
 }
 img{
  display: block;
- margin-left: auto;
+ margin-left:auto;
  margin-right: auto;
- border: 1px solid #ddd;
+   border: 1px solid #ddd;
    border-radius: 50%;
-   vertical-align: middle;
+   vertical-allign: middle;
+}
+h1,#roll{
+ text-align: center;
+ text-tranform: capitalize;
+ color: black;
+}
 
+a{
+ text-decoration: none;
+}
+
+@media only screen and (min-width:360px) and (max-width:480px){
+
+.flex-parent
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.profile{
+ width: 30%;
+ height: auto;
+ background: #C0C0C0;
+ margin: 2%;
+ padding: 1%;
+   border: 2px solid #000;
+ border-radius: 20px;
+}
+.content{
+ width: 100%;
+ height: auto;
+ background: #C0C0C0;
+ margin: 2%;
+ padding: 1%;
+ border: 2px solid #000;
+ border-radius: 20px;
+}
+}
+
+@media only screen and (min-width:480px) and (max-width:760px){
+
+.flex-parent
+{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+.profile{
+ width: 100%;
+ height: auto;
+ background: #DEB887;
+ margin: 2%;
+ padding: 1%;
+   border: 2px solid #000;
+ border-radius: 20px;
+}
+.content{
+ width: 100%;
+ height: auto;
+ background: #DEB887;
+ margin: 2%;
+ padding: 1%;
+ border: 2px solid #000;
+ border-radius: 20px;
+}
 }
