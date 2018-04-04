@@ -9,7 +9,7 @@ body{
 .profile{
  width: 100%;
  height: auto;
- background: #4682B4;
+ background: #C0C0C0;
  margin: 2%;
  padding: 1%;
    border: 2px solid #000;
@@ -18,7 +18,7 @@ body{
 .content{
  width: 70%;
  height: auto;
- background: #4682B4;
+ background: #C0C0C0;
  margin: 2%;
  padding: 1%;
  border: 2px solid #000;
@@ -41,8 +41,20 @@ h1,#roll{
 a{
  text-decoration: none;
 }
+table{
+  width:95%;
+}
+td{
+  padding:1%;
+}
+tr:nth-child(even){
+  background: white;
+}
+tr:nth-child(odd){
+  background: Grey;
+}
 
-@media only screen and (min-width:360px) and (max-width:480px){
+@media only screen and (min-width:320px) and (max-width:480px){
 
 .flex-parent
 {
@@ -51,9 +63,9 @@ a{
  justify-content: center;
 }
 .profile{
- width: 30%;
+ width: 100%;
  height: auto;
- background: #C0C0C0;
+ background: #ADD8E6;
  margin: 2%;
  padding: 1%;
    border: 2px solid #000;
@@ -62,7 +74,7 @@ a{
 .content{
  width: 100%;
  height: auto;
- background: #C0C0C0;
+ background: #ADD8E6;
  margin: 2%;
  padding: 1%;
  border: 2px solid #000;
